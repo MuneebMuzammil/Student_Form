@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Muneeb ",
+    "color": "Green",
+    "gender": "Male",
+    "country": "Italy",
+    "age": 25
+  },
+  {
+    "name": "Ali ",
+    "color": "Red",
+    "gender": "Male",
+    "country": "Pakistan",
+    "age": 28
+  },
+  {
+    "name": "Ahmad",
+    "color": "Brown",
+    "gender": "male",
+    "country": "America",
+    "age": 22
+  },
+  {
+    "name": "Fatima",
+    "color": "Green",
+    "gender": "Female",
+    "country": "India",
+    "age": 20
+  },
+  {
+    "name": "Bilal",
+    "color": "Red",
+    "gender": "Male",
+    "country": "UAE",
+    "age": 22
+  },
+  {
+    "name": "Sara",
+    "color": "Brown",
+    "gender": "Female",
+    "country": "Pakistan",
+    "age": 26
+  },
+  {
+    "name": "Usman",
+    "color": "Green",
+    "gender": "Male",
+    "country": "Italy",
+    "age": 29
+  },
+  {
+    "name": "Zainab",
+    "color": "Red",
+    "gender": "Female",
+    "country": "America",
+    "age": 33
+  },
+  {
+    "name": "Hamza",
+    "color": "Brown",
+    "gender": "Male",
+    "country": "India",
+    "age": 35
+  },
+  {
+    "name": "Maryam",
+    "color": "Green",
+    "gender": "Female",
+    "country": "UAE",
+    "age": 30
+  }
+]

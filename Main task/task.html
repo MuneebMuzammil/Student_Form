@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Form</title>
+    <link rel="stylesheet" href="task.css" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <div class="main">
+      <h1>Student Form</h1>
+
+      <label for="name">Enter You'r Name: </label>
+      <input type="text" class="name" id="naa" /> <br /><br />
+
+      <label class="color">Favorite Color:</label><br />
+      <input type="checkbox" id="red" value="red" name="color" />
+      <label for="red">Red</label><br />
+      <input type="checkbox" id="green" value="green" name="color" />
+      <label for="green">Green</label><br />
+      <input type="checkbox" id="brown" value="brown" name="color" />
+      <label for="brown">Brown</label><br /><br />
+
+      <label class="gender">Gender:</label><br />
+      <input type="radio" class="male" value="male" name="gender" />
+      <label for="male">Male</label><br />
+      <input type="radio" class="female" value="female" name="gender" />
+      <label for="female">Female</label><br /><br />
+
+      <label for="country" class="country">Select you'r Country</label>
+      <select id="country" name="country">
+        <option value="Pakistan">Pakistan</option>
+        <option value="America">America</option>
+        <option value="Italy">Italy</option>
+        <option value="india">india</option>
+        <option value="UAE">UAE</option>
+      </select>
+      <br /><br />
+
+      <button type="button" class="set" onclick="setform()">Set</button>
+      <button type="button" class="get" onclick="getform()">get</button>
+      <button type="button" class="read" onclick="Table()">Read</button>
+      <button type="button" id="button">save</button><br />
+      <button type="button" id="showDataButton">Show Stored Data</button>
+    </div>
+
+    <div class="table-container" style="display: none">
+      <table id="studentTable"></table>
+    </div>
+
+    <script src="task.js"></script>
+  </body>
+</html>
